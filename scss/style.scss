@@ -1,4 +1,7 @@
-//connection normalize
-// @import 'normalize'
-//connection variables
-@import 'media'
+@import '_settings.scss';
+@import '_variables.scss';
+@import '_normalize.scss';
+@import '_media.scss';
+@import './blocks/main';
+@import './blocks/header';
+@import './blocks/footer'
