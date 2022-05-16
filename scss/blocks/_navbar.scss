@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 565px;
+    
 
  .btn {
      width: 136px;
@@ -9,10 +10,6 @@
      background: $light 0% 0% no-repeat padding-box;
      box-shadow: 0px 5px 10px #FC435933;
      border-radius: 21px;
-    //  opacity: 0;
-   
-  
-
     }
 
  .start {
@@ -63,16 +60,4 @@
     display: flex;
     justify-content: space-between;
     width: 122px;
-
-    .header-social__link{
-        .header__icon-facebook{
-
-        }
-        .header__icon-instagram{
-
-        }
-        .header__icon-youtube{
-
-        }
-    }
 }

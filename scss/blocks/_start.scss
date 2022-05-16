@@ -1,14 +1,14 @@
 .start__container {
-    width: 1920px;
+    max-width: 1920px;
     height: 813px;
-    opacity: 1;
+}
 
-
-    .photo-start{
-        width: 1920px;
-        height: 813px;
-        background: 0% 0% no-repeat padding-box;
-        opacity: 1;
-        }
-
+.photo-start {
+    background: 0% 0% no-repeat padding-box;
+    z-index: -1;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    width: 1920px;
+    height: 1280px;
 }

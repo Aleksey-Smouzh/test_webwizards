@@ -1,0 +1,269 @@
+
+@media screen and (max-width: 1800px){
+    body {
+        max-width: 1800px;
+    }
+    .container{
+        max-width: 1800px;
+    }
+    .about_container{
+        max-width: 1800px;
+    }
+    .photo {
+    max-width: 900px;
+    max-height: 613px;
+}
+     .start__container{
+         max-width: 1800px;
+     }
+      
+     .footer{
+         max-width: 1800px; 
+         max-height: 190px;
+     }
+ }
+ 
+
+
+
+@media screen and (max-width: 1680px){
+   body {
+       max-width: 1680px;
+   }
+   .container{
+    max-width: 1500px;
+}
+.photo {
+    max-width: 850px;
+    max-height: 613px;
+}
+   
+    .start__container{
+        max-width: 1670px;
+    }
+     
+    .footer{
+        max-width: 1670px; 
+        max-height: 190px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1487px){
+    body {
+        max-width: 1440px;
+    }
+    .container{
+        max-width: 1440px;
+    }
+    .photo {
+        max-width: 710px;
+        max-height: 613px;
+    }
+    
+    .start__container{
+        max-width: 1440px;
+        max-height: 800px;
+    }
+    .footer{
+        max-width: 1440px;
+        max-height: 170px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    body {
+        max-width: 1280px;
+
+        .container{
+            max-width: 1280px;
+        }
+    }
+    .start__container{
+        max-width: 1280px;
+        max-height: 800px;
+
+    }
+    .photo {
+        max-width: 510px;
+        max-height: 613px;
+    }
+
+        .footer{
+        max-width: 1280px;
+        max-height: 140px; 
+    }
+ }
+// ipad 1080 x 810
+ @media screen and (max-width: 1080px){
+    body {
+        max-width: 1080px;
+        .container{
+            max-width: 1080px;
+        }
+    }
+    
+    .photo {
+        max-width: 480px;
+        max-height: 380px;
+    }
+
+
+    .start__container{
+        max-width: 1080px;
+        // max-height: 810px;
+    }
+    .footer{
+        max-width: 1080px;
+        max-height: 100px; 
+    }
+}
+// ipad 810 
+@media screen and (max-width: 810px){
+    body {
+        max-width: 810px;
+    }
+    .start__container{
+        max-width: 810px;
+        // max-height: 1080px;
+    }
+    .about_container{
+        flex-direction: column-reverse;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .photo {
+        max-width: 530px;
+        max-height: 380px;
+    }
+
+    .about-article{
+        justify-content: center;
+        align-items:center;
+    }
+
+
+
+    .footer{
+        max-width: 810px;
+        max-height: 80px; 
+    }
+}
+
+@media screen and (max-width: 610px){
+    body {
+        max-width: 610px;
+    }
+    .start__container{
+        max-width: 610px;
+        // max-height: 1080px;
+    }
+    .about_container{
+        flex-direction: column-reverse;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .photo {
+        max-width: 530px;
+        max-height: 380px;
+    }
+
+    .about-article{
+        justify-content: center;
+        align-items:center;
+    }
+
+
+    .footer{
+        max-width: 610px;
+        max-height: 80px; 
+    }
+}
+
+@media screen and (max-width: 570px){
+    body {
+        max-width: 570px;
+    }
+    .start__container{
+        max-width: 570px;
+        // max-height: 1080px;
+    }
+    .about_container{
+        flex-direction: column-reverse;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .photo {
+        max-width: 410px;
+        max-height: 320px;
+    }
+
+    .about-article{
+        justify-content: center;
+        align-items:center;
+    }
+  .text{
+      font-size: 10px;
+  
+  }
+
+    .footer{
+        max-width: 610px;
+        max-height: 80px; 
+    }
+}
+
+
+
+
+// iphone 12/13 pro max
+@media screen and (max-width: 428px){
+    body {
+        max-width: 428px;
+    }
+    .start__container{
+        max-width: 428px;
+       max-height: 110px;
+    }
+    .footer{
+        max-width: 428px;
+        max-height: 60px;
+    }
+}
+
+@media screen and (max-width: 412px){
+    body {
+        max-width: 412px;
+    }
+    .start__container{
+        max-width: 412px;
+       max-height: 110px;
+    }
+    .footer{
+        max-width: 412px;
+        max-height: 55px; 
+    } 
+}
+
+
+@media screen and (max-width: 384px){
+    body {
+        max-width: 384px;
+    }
+
+    .start__container{
+        max-width: 384px;
+       max-height: 80px;
+    }
+    .footer{
+        max-width: 384px;
+        max-height: 40px;
+        
+    }
+}

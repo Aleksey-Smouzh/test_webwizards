@@ -4,9 +4,10 @@
 }
 
 body {
-    width: 1920px;
-    height: 3168px;
+    max-width: 1920px;
+    max-height: 3168px;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .container {

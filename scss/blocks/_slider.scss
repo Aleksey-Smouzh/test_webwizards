@@ -1,0 +1,29 @@
+
+.slider{
+   display: flex;
+}
+.container {
+    max-width: 1364px;
+    height: 767px;
+    // opacity: 1;
+}
+
+.swiper-button-prev{
+    background-image: url(../../img/arrow-left.svg);
+    background-repeat: no-repeat;
+}
+.swiper-button-next{
+    background-image: url(../../img/arrow-right.svg);
+    background-repeat: no-repeat;
+}
+
+.photo_gallery {
+    width: 1364px;
+    height: 767px;
+}
+.swiper {
+    width: 1364px;
+    height: 767px;
+    display: flex;
+    
+  }
