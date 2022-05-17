@@ -1,18 +1,12 @@
-// .footer {
-//     max-width: 1920px;
-//     height: 208px;
-//     background: $colorFooter 0% 0% no-repeat padding-box;
-//     opacity: 1;
-// }
-.footer-container{
+.footer-container {
     width: 1920px;
     height: 208px;
 }
 
-.footer{
+.footer {
     width: 1920px;
-    height: 208px; 
+    height: 208px;
     background-color: $colorFooter;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     opacity: 1;
 }

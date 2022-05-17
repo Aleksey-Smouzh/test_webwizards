@@ -8,14 +8,14 @@ document.querySelector("span.start").addEventListener("click", function () {
 
 document.querySelector("span.about").addEventListener("click", function () {
   window.scrollTo({
-    top: 800,
+    top: 1060,
     left: 0,
     behavior: "smooth",
   });
 });
 document.querySelector("span.gallery").addEventListener("click", function () {
   window.scrollTo({
-    top: 1800,
+    top: 2170,
     left: 0,
     behavior: "smooth",
   });
