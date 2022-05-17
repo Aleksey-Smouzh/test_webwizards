@@ -948,16 +948,18 @@ template {
           align-items: center;
 }
 
-.slider-container {
-  width: 1508px;
-  height: 821px;
-}
-
 .swiper {
   width: 1364px;
   height: 767px;
   position: relative;
+  margin-bottom: 20px;
   opacity: 1;
+}
+
+.slider-photo {
+  width: 1274px;
+  height: 707px;
+  padding-left: 80px;
 }
 
 .slider-btn {
@@ -982,10 +984,6 @@ template {
   left: 20px;
   background-image: url(../../img/arrow-left.svg);
   background-repeat: no-repeat;
-}
-
-.ellipse {
-  background-color: aqua;
 }
 
 .start_container {

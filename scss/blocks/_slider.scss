@@ -49,16 +49,22 @@ justify-content: space-around;
 align-items:center;
 }
 
-.slider-container{
-  width: 1508px;
-  height: 821px;
+// .slider-container{
+//   width: 1508px;
+//   height: 821px;
 
-}
+// }
 .swiper {
   width: 1364px;
   height: 767px;
   position: relative;
+  margin-bottom: 20px;
   opacity: 1;
+}
+.slider-photo{
+width: 1274px;
+height: 707px;
+padding-left: 80px;
 }
 
 .slider-btn{
@@ -86,5 +92,7 @@ background-repeat: no-repeat;
 }
 
 .ellipse{
-  background-color:aqua
+  // margin-bottom: -20px;
+  // position: absolute;
+  
 }
