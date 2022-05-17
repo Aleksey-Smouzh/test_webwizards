@@ -1,29 +1,46 @@
 
-.slider{
-   display: flex;
-}
-.container {
+
+// .container {
+// min-width: 1364px; 
+//  overflow: hidden;
+//     // height: 767px;
+//     // opacity: 1;
+// }
+// .slider{
+//     min-width: 1364px;
+//     height: 1364px; 
+//     display: flex;
+//  }
+// .slider-line{
+//     min-width: 1364px;
+
+//     display: flex;
+//     position: relative;
+//     transition: all ease 1s;
+//     //  overflow: hidden;
+// }
+
+
+// // .swiper-button-prev{
+// //     background-image: url(../../img/arrow-left.svg);
+// //     background-repeat: no-repeat;
+// //     cursor: pointer;
+// // }
+// // .swiper-button-next{
+// //     background-image: url(../../img/arrow-right.svg);
+// //     background-repeat: no-repeat;
+// //     cursor: pointer;
+// // }
+
+// .photo_gallery {
+//     width: 1364px;
+//     height: 767px;
+// }
+.swiper {
     max-width: 1364px;
     height: 767px;
-    // opacity: 1;
-}
-
-.swiper-button-prev{
-    background-image: url(../../img/arrow-left.svg);
-    background-repeat: no-repeat;
-}
-.swiper-button-next{
-    background-image: url(../../img/arrow-right.svg);
-    background-repeat: no-repeat;
-}
-
-.photo_gallery {
-    width: 1364px;
-    height: 767px;
-}
-.swiper {
-    width: 1364px;
-    height: 767px;
-    display: flex;
+    //  display: flex;
     
   }
+
+
