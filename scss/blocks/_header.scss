@@ -7,7 +7,7 @@
 }
 
 .header_container {
-    max-width: 1920px;
+    // max-width: 1920px;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -15,15 +15,14 @@
 }
 
 .wrapper {
-
     display: flex;
     justify-content: space-between;
-    width: 882px;
+    max-width: 882px;
 
 }
 
 .logo {
-    width: 216px;
+    max-width: 216px;
     height: 50px;
 }
 
