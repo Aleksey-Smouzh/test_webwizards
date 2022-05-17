@@ -47,4 +47,29 @@
 .swiper {
   width: 600px;
   height: 300px;
+  position: relative;
+}
+
+.slider-btn{
+  position: absolute;
+    top: 50%;
+    z-index: 99;
+    width: 30px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: transparent;
+}
+.right{
+right: 20px;
+background-image:url(../../img/arrow-right.svg);
+background-repeat: no-repeat;
+// background-position: center;
+}
+.left{
+left: 20px;
+background-image: url(../../img/arrow-left.svg);
+background-repeat: no-repeat;
+// background-position: center;
 }
