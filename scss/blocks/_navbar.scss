@@ -18,10 +18,7 @@
 
 
     .start {
-        // width: 56px;
-        // height: 14px;
         text-align: left;
-        // font: normal 300 12px/14px;
         letter-spacing: 4.8px;
         color: $colorFooter;
         text-transform: uppercase;
@@ -33,7 +30,6 @@
         width: 69px;
         height: 14px;
         text-align: left;
-        // font: normal 300 12px/14px;
         letter-spacing: 4.8px;
         color: $colorFooter;
         text-transform: uppercase;
@@ -44,7 +40,8 @@
         width: 81px;
         height: 14px;
         text-align: left;
-        font: normal 300 12px/14px;
+        font-weight: 300;
+        font-size: 12px;
         letter-spacing: 4.8px;
         color: $colorFooter;
         text-transform: uppercase;
@@ -55,7 +52,8 @@
         width: 86px;
         height: 14px;
         text-align: left;
-        font: normal 300 12px/14px;
+        font-weight: 300;
+        font-size: 12px;
         letter-spacing: 4.8px;
         color: $colorFooter;
         text-transform: uppercase;
