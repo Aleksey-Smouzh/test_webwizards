@@ -43,11 +43,22 @@
     
 //   }
 
+.slider-gallery{
+display: flex;
+justify-content: space-around;
+align-items:center;
+}
 
+.slider-container{
+  width: 1508px;
+  height: 821px;
+
+}
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 1364px;
+  height: 767px;
   position: relative;
+  opacity: 1;
 }
 
 .slider-btn{
@@ -74,3 +85,6 @@ background-repeat: no-repeat;
 // background-position: center;
 }
 
+.ellipse{
+  background-color:aqua
+}
