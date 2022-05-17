@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LOGOIPSUM</title>
-   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato:wght@400;700;900&family=Montserrat:wght@300;700;900&display=swap"
         rel="stylesheet" />
-        
-        
-        <script src="js/scrol.js" defer></script>
+
+
+    <script src="js/scrol.js" defer></script>
 </head>
 
 <body>
@@ -28,8 +28,8 @@
                     <button class="btn"><span class="start">start</span></button>
                     <button class="btn"><span class="about">o mnie</span></button>
                     <button class="btn"><span class="gallery">galeria</span></button>
-                    <button class="btn"><a class="contact" href="#">kontakt</a></button>
-                    
+                    <button class="btn"><a class=" open-popup contact" href="#">kontakt</a></button>
+
                 </div>
             </div>
             <!-- /.navbar_buttons -->
@@ -51,7 +51,7 @@
     <div class="start_container">
         <img class="photo-start" src="img/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="photo: screen saver" />
     </div>
-    
+
     <!-- /.section  start (nagłowek)-->
     <main class="main">
         <div id="about"></div>
@@ -91,7 +91,7 @@
             </section>
             <!-- /. section about text (o mnie) -->
         </div>
-    </div>
+        </div>
         <!-- /.section about (o mnie) -->
 
         <!-- Slider main container Gallery -->
@@ -99,49 +99,79 @@
         <div class="gallery-container">
 
             <div class="wrapper-title">
-                
+
                 <h2 class="title_gallery">GALERIA</h2>
                 <div class="line_three"></div>
             </div>
-           
+
         </div>
-        
+
     </main>
-<div class="slider-gallery">
-    <div class="slider-container">
-<!-- Slider main container -->
-<div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"> <img  class="slider-photo" src="img/reinhart-julian-_r0lZDocH78-unsplash.png" alt=""></div>
-      <div class="swiper-slide"> <img  class="slider-photo" src="img/reinhart-julian-H4AejIh_l7g-unsplash.png" alt=""></div>
-      <div class="swiper-slide"> <img  class="slider-photo" src="img/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt=""></div>
-      <div class="swiper-slide"> <img  class="slider-photo" src="img/reinhart-julian-VnI_piHNlok-unsplash.jpg" alt=""></div>
-      
+    <div class="slider-gallery">
+        <div class="slider-container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-_r0lZDocH78-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-H4AejIh_l7g-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-VnI_piHNlok-unsplash.jpg" alt=""></div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination ellipse"></div>
+
+                <!-- If we need navigation buttons -->
+                <button class="slider-btn left slider-btn--prev"></button>
+                <button class="slider-btn right slider-btn--next"></button>
+
+                <!-- navigation button -->
+
+            </div>
+        </div>
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination ellipse"></div>
-  
-    <!-- If we need navigation buttons -->
-    <button class="slider-btn left slider-btn--prev"></button>
-    <button class="slider-btn right slider-btn--next"></button>
-  
-  <!-- navigation button -->
-
-    </div>
-</div>
-
-</div>
-
-
-
     <footer class="footer-container">
         <div class="footer"></div>
     </footer>
 
-<script src="js/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
+
+
+    <div class="popup__bg">
+        <form class="popup">
+            <img src="img/close.svg" class="close-popup">
+
+            <div class="label__text">imię <span class="star">*</span></div>
+            <input type="text" name="name" required ize="20" placeholder="- wpisz-">
+            </label>
+            <label>
+                <div class="label__text">nazwisko  <span class="star">*</span></div>
+                <input type="text" name="surname"  required ize="20" placeholder="- wpisz-"> 
+            </label>
+            <label>
+                <div class="label__text">adres e-mail <span class="star">*</span></div>
+                <input type="email" name="email" required size="20" placeholder="- wpisz-">
+            </label>
+            <input type="checkbox">
+            <span class="always"> <span class="star">*</span> - pola wymagane</span>
+            <span class="approval">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor
+                <br> incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud <br>
+                exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat.</span>
+            <button type="submit">WYŚLIJ</button>
+            <span class="appeal">Proszę uzupełnić wymagane pola!</span>
+        </form>
+    </div>
+
+
+
+<script src="js/popup.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
