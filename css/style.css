@@ -938,8 +938,8 @@ template {
 }
 
 .swiper {
-  max-width: 1364px;
-  height: 767px;
+  width: 600px;
+  height: 300px;
 }
 
 .start_container {
