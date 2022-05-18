@@ -13,9 +13,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato:wght@400;700;900&family=Montserrat:wght@300;700;900&display=swap"
         rel="stylesheet" />
-
-
-    <script src="js/scrol.js" defer></script>
 </head>
 
 <body>
@@ -29,7 +26,6 @@
                     <button class="btn h"><span class="about">o mnie</span></button>
                     <button class="btn h"><span class="gallery">galeria</span></button>
                     <button class="btn"><a class=" open-popup contact" href="#">kontakt</a></button>
-
                 </div>
             </div>
             <!-- /.navbar_buttons -->
@@ -41,7 +37,6 @@
                 <a class="header-social__link" href="#"><img class="header__icon-youtube" src="img/youtube.svg"
                         alt="icon: youtube" /></a>
             </div>
-
         </div>
         <!-- /. social__links -->
         <div class="red_line"></div>
@@ -51,7 +46,6 @@
     <div class="start_container">
         <img class="photo-start" src="img/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="photo: screen saver" />
     </div>
-
     <!-- /.section  start (nagłowek)-->
     <main class="main">
         <div id="about"></div>
@@ -87,7 +81,7 @@
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci velit, sed quia non numquam.
                     </p>
-                    <p  class="mobil  "  id="mobil_size">
+                    <p class="mobil  " id="mobil_size">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
                         eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut
                         enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris
@@ -113,19 +107,14 @@
         </div>
         </div>
         <!-- /.section about (o mnie) -->
-
         <!-- Slider main container Gallery -->
         <div id="gallery"></div>
         <div class="gallery-container">
-
             <div class="wrapper-title">
-
                 <h2 class="title_gallery">GALERIA</h2>
                 <div class="line_three"></div>
             </div>
-
         </div>
-
     </main>
     <div class="slider-gallery">
         <div class="slider-container">
@@ -142,50 +131,37 @@
                             src="img/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt=""></div>
                     <div class="swiper-slide"> <img class="slider-photo"
                             src="img/reinhart-julian-VnI_piHNlok-unsplash.jpg" alt=""></div>
-
                 </div>
                 <!-- If we need pagination -->
                 <div class="swiper-pagination ellipse"></div>
-
                 <!-- If we need navigation buttons -->
                 <button class="slider-btn left slider-btn--prev"></button>
                 <button class="slider-btn right slider-btn--next"></button>
-
                 <!-- navigation button -->
-
             </div>
         </div>
     </div>
     <footer class="footer-container">
         <div class="footer"></div>
     </footer>
-
     <!-- ./POPUP -->
-
     <div class="popup__bg">
-        <form class="popup">
+        <form class="popup" id="contact-form">
             <img src="img/close.svg" class="close-popup">
             <label>
-                <div  class="label__text">imię<span class="star">*</span></div>
+                <div class="label__text">imię<span clss="star">*</span></div>
                 <input id="name" type="text" name="name" required ize="20" placeholder="  - wpisz -">
             </label>
-
-
             <label>
-                <div  class="label__text">nazwisko <span class="star">*</span></div>
+                <div class="label__text">nazwisko <span class="star">*</span></div>
                 <input id="surname" type="text" name="surname" required ize="20" placeholder="  - wpisz -">
             </label>
-
             <label>
-                <div  class="label__text">adres e-mail <span class="star">*</span></div>
+                <div class="label__text">adres e-mail <span class="star">*</span></div>
                 <input id="email" type="email" name="email" required size="20" placeholder="  - wpisz -">
             </label>
-
             <div class="popup-wrapper">
-                <span class="always"> <span class="star">*</span> - pola wymagane</span>
-
-
-
+                <span class="required"><span class="star">*</span> - pola wymagane</span>
                 <span class="approval">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod
                     tempor
                     <br> incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud <br>
@@ -193,16 +169,13 @@
                 <button id="sub" type="submit">WYŚLIJ</button>
                 <span class="appeal">Proszę uzupełnić wymagane pola!</span>
             </div>
-            <input id="check" class="checkbox" type="checkbox">
+            <input id="check" class="checkbox" type="checkbox" name="agreed">
         </form>
     </div>
-
-
-
+    <script src="js/scroll.js"></script>
     <script src="js/popup.js"></script>
-    <script src="js/respons.js" defer></script>
+    <script src="js/response.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
