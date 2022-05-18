@@ -1,6 +1,12 @@
+// .footer-container {
+//     width: 1920px;
+//     height: 208px;
+// }
+
 .footer {
-    max-width: 1920px;
+    width: 1920px;
     height: 208px;
-    background: $colorFooter 0% 0% no-repeat padding-box;
+    background-color: $colorFooter;
+    background-repeat: no-repeat;
     opacity: 1;
 }

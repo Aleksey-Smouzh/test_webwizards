@@ -2,12 +2,12 @@
     top: 0;
     position: fixed;
     opacity: 1;
-    z-index: 0;
+    z-index: 99;
     background: $light 0% 0% no-repeat padding-box;
 }
 
 .header_container {
-    max-width: 1920px;
+    // max-width: 1920px;
     height: 100px;
     display: flex;
     justify-content: space-around;
@@ -15,15 +15,14 @@
 }
 
 .wrapper {
-
     display: flex;
     justify-content: space-between;
-    width: 882px;
+    max-width: 882px;
 
 }
 
 .logo {
-    width: 216px;
+    max-width: 216px;
     height: 50px;
 }
 

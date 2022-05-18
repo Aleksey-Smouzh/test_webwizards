@@ -13,23 +13,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Lato:wght@400;700;900&family=Montserrat:wght@300;700;900&display=swap"
         rel="stylesheet" />
-        
-        
-        <script src="js/scrol.js" defer></script>
+
+
+    <script src="js/scrol.js" defer></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="header__container">
+        <div class="header_container">
             <div class="wrapper">
                 <img class="logo" src="img/Logo.svg" alt="logo: LOGOIPSUM" />
                 <!-- /.logo -->
                 <div class="navbar-container">
-                    <button class="btn"><span class="start">start</span></button>
-                    <button class="btn"><span class="about">o mnie</span></button>
-                    <button class="btn"><span class="gallery">galeria</span></button>
-                    <button class="btn"><a class="contact" href="#">kontakt</a></button>
-                    
+                    <button class="btn hs"><span class="start">start</span></button>
+                    <button class="btn h"><span class="about">o mnie</span></button>
+                    <button class="btn h"><span class="gallery">galeria</span></button>
+                    <button class="btn"><a class=" open-popup contact" href="#">kontakt</a></button>
+
                 </div>
             </div>
             <!-- /.navbar_buttons -->
@@ -51,7 +51,7 @@
     <div class="start_container">
         <img class="photo-start" src="img/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="photo: screen saver" />
     </div>
-    
+
     <!-- /.section  start (nagłowek)-->
     <main class="main">
         <div id="about"></div>
@@ -87,11 +87,31 @@
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci velit, sed quia non numquam.
                     </p>
+                    <p  class="mobil  "  id="mobil_size">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
+                        eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris
+                        nisi ut aliquip ex ea <br> commodo consequat.<br />
+                        <br />
+                        Duis aute irure dolor in reprehenderit in voluptate velit <br> esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur <br> sint occaecat
+                        cupidatat non proident, sunt in culpa qui <br> officia deserunt mollit
+                        anim id est laborum.<br />
+                        <br />Sed ut perspiciatis unde omnis iste natus error sit <br>
+                        voluptatem accusantium doloremque laudantium, <br> totam rem aperiam,
+                        eaque ipsa quae ab illo <br> inventore veritatis et quasi architecto
+                        beatae vitae <br> dicta sunt explicabo. Nemo enim ipsam voluptatem <br> quia
+                        voluptas sit aspernatur aut odit aut fugit, sed <br> quia consequuntur
+                        magni dolores eos qui ratione <br>voluptatem sequi nesciunt.<br />
+                        <br />
+                        Neque porro quisquam est, qui dolorem ipsum quia <br> dolor sit amet,
+                        consectetur, adipisci velit, sed quia <br> non numquam.
+                    </p>
                 </div>
             </section>
             <!-- /. section about text (o mnie) -->
         </div>
-    </div>
+        </div>
         <!-- /.section about (o mnie) -->
 
         <!-- Slider main container Gallery -->
@@ -99,46 +119,90 @@
         <div class="gallery-container">
 
             <div class="wrapper-title">
-                
+
                 <h2 class="title_gallery">GALERIA</h2>
                 <div class="line_three"></div>
             </div>
-            <div class="slider">
-                <div class="slider-container">
-                    
-                    <!-- Slider main container -->
-                    <div class="swiper">
-                        <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide"><img class="photo_gallery"
-                                    src="img/reinhart-julian-_r0lZDocH78-unsplash.png" alt="photo: 1" /></div>
-                            <div class="swiper-slide"> <img class="photo_gallery"
-                                    src="img/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt="photo: 2" /></div>
-                            <div class="swiper-slide"><img class="photo_gallery"
-                                    src="img/reinhart-julian-H4AejIh_l7g-unsplash.png" alt="photo: 3" /></div>
-                            <div class="swiper-slide"><img class="photo_gallery"
-                                    src="img/reinhart-julian-VnI_piHNlok-unsplash.jpg" alt="photo: 4" /></div>
-                        </div>
-                        <!-- If we need pagination -->
-                        <div class="swiper-pagination"></div>
 
-                        <!-- If we need navigation buttons -->
-                        <div class=" swiper-button-prev"></div>
-                        <div class=" swiper-button-next"></div>
+        </div>
 
-                    </div>
+    </main>
+    <div class="slider-gallery">
+        <div class="slider-container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-_r0lZDocH78-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-H4AejIh_l7g-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt=""></div>
+                    <div class="swiper-slide"> <img class="slider-photo"
+                            src="img/reinhart-julian-VnI_piHNlok-unsplash.jpg" alt=""></div>
+
                 </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination ellipse"></div>
+
+                <!-- If we need navigation buttons -->
+                <button class="slider-btn left slider-btn--prev"></button>
+                <button class="slider-btn right slider-btn--next"></button>
+
+                <!-- navigation button -->
+
             </div>
         </div>
-        
-    </main>
-    <!-- <footer class="footer-container">
+    </div>
+    <footer class="footer-container">
         <div class="footer"></div>
-    </footer> -->
+    </footer>
 
-   <script src="js/swiper-bundle.min.js"></script>
-   <script src="js/main.js"></script>
+    <!-- ./POPUP -->
+
+    <div class="popup__bg">
+        <form class="popup">
+            <img src="img/close.svg" class="close-popup">
+            <label>
+                <div  class="label__text">imię<span class="star">*</span></div>
+                <input id="name" type="text" name="name" required ize="20" placeholder="  - wpisz -">
+            </label>
+
+
+            <label>
+                <div  class="label__text">nazwisko <span class="star">*</span></div>
+                <input id="surname" type="text" name="surname" required ize="20" placeholder="  - wpisz -">
+            </label>
+
+            <label>
+                <div  class="label__text">adres e-mail <span class="star">*</span></div>
+                <input id="email" type="email" name="email" required size="20" placeholder="  - wpisz -">
+            </label>
+
+            <div class="popup-wrapper">
+                <span class="always"> <span class="star">*</span> - pola wymagane</span>
+
+
+
+                <span class="approval">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod
+                    tempor
+                    <br> incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud <br>
+                    exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat.</span>
+                <button id="sub" type="submit">WYŚLIJ</button>
+                <span class="appeal">Proszę uzupełnić wymagane pola!</span>
+            </div>
+            <input id="check" class="checkbox" type="checkbox">
+        </form>
+    </div>
+
+
+
+    <script src="js/popup.js"></script>
+    <script src="js/respons.js" defer></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

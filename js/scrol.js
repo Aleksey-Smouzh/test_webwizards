@@ -8,7 +8,7 @@ document.querySelector("span.start").addEventListener("click", function () {
 
 document.querySelector("span.about").addEventListener("click", function () {
   window.scrollTo({
-    top: 800,
+    top: 970,
     left: 0,
     behavior: "smooth",
   });
