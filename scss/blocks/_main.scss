@@ -59,13 +59,15 @@
     margin-bottom: 30px;
     text-align: left;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 7vm;
     letter-spacing: 0.5px;
     color: $black;
     opacity: 1;
 
 }
-
+.mobil{
+    display: none;
+}
 .gallery-container {
     max-width: 1920px;
     height: 513px;

@@ -530,7 +530,7 @@ template {
     font-size: 24px;
   }
   .text {
-    font-size: 10px;
+    font-size: 14px;
   }
   .photo {
     max-width: 560px;
@@ -758,7 +758,7 @@ template {
     max-width: 700px;
   }
   .logo {
-    width: 170px;
+    max-width: 170px;
     height: 50px;
   }
   .start_container {
@@ -892,9 +892,20 @@ template {
   body {
     max-width: 570px;
   }
+  .header_container {
+    max-width: 380px;
+  }
+  .logo {
+    width: 107px;
+    margin-right: 10px;
+  }
   .hs {
     display: none;
     position: absolute;
+  }
+  .header-social-network {
+    max-width: 110px;
+    max-height: 25px;
   }
   .start_container {
     max-height: 120px;
@@ -925,18 +936,36 @@ template {
         -ms-flex-align: center;
             align-items: center;
   }
-  .about-text {
-    font-size: 8px;
+  .text {
+    display: none;
+  }
+  .mobil {
+    display: inline;
+    font-size: 3.3vw;
+  }
+  .slider-gallery {
+    max-width: 375px;
+    max-height: 333px;
+  }
+  .swiper {
+    max-width: 360px;
+    max-height: 360px;
+  }
+  .slider-photo {
+    max-width: 280px;
+    max-height: 280px;
   }
   .footer {
     max-width: 570px;
-    max-height: 80px;
   }
 }
 
 @media screen and (max-width: 428px) {
   body {
     max-width: 428px;
+  }
+  .header-container {
+    max-width: 427px;
   }
   .start_container {
     max-height: 47px;
@@ -975,6 +1004,18 @@ template {
   }
   .photo-start {
     max-width: 384px;
+  }
+  .slider-gallery {
+    max-width: 375px;
+    max-height: 333px;
+  }
+  .swiper {
+    max-width: 360px;
+    max-height: 360px;
+  }
+  .slider-photo {
+    max-width: 280px;
+    max-height: 280px;
   }
   .footer {
     max-width: 384px;
@@ -1254,10 +1295,14 @@ template {
   margin-bottom: 30px;
   text-align: left;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 7vm;
   letter-spacing: 0.5px;
   color: #000000;
   opacity: 1;
+}
+
+.mobil {
+  display: none;
 }
 
 .gallery-container {
