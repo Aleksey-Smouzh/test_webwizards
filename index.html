@@ -87,7 +87,7 @@
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         consectetur, adipisci velit, sed quia non numquam.
                     </p>
-                    <p class="mobil">
+                    <p  class="mobil  "  id="mobil_size">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
                         eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut
                         enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris
@@ -166,19 +166,19 @@
         <form class="popup">
             <img src="img/close.svg" class="close-popup">
             <label>
-                <div class="label__text">imię<span class="star">*</span></div>
-                <input type="text" name="name" required ize="20" placeholder="  - wpisz -">
+                <div  class="label__text">imię<span class="star">*</span></div>
+                <input id="name" type="text" name="name" required ize="20" placeholder="  - wpisz -">
             </label>
 
 
             <label>
-                <div class="label__text">nazwisko <span class="star">*</span></div>
-                <input type="text" name="surname" required ize="20" placeholder="  - wpisz -">
+                <div  class="label__text">nazwisko <span class="star">*</span></div>
+                <input id="surname" type="text" name="surname" required ize="20" placeholder="  - wpisz -">
             </label>
 
             <label>
-                <div class="label__text">adres e-mail <span class="star">*</span></div>
-                <input type="email" name="email" required size="20" placeholder="  - wpisz -">
+                <div  class="label__text">adres e-mail <span class="star">*</span></div>
+                <input id="email" type="email" name="email" required size="20" placeholder="  - wpisz -">
             </label>
 
             <div class="popup-wrapper">
@@ -190,16 +190,17 @@
                     tempor
                     <br> incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud <br>
                     exercitation ullamco laboris nisi ut aliquip <br> ex ea commodo consequat.</span>
-                <button type="submit">WYŚLIJ</button>
+                <button id="sub" type="submit">WYŚLIJ</button>
                 <span class="appeal">Proszę uzupełnić wymagane pola!</span>
             </div>
-            <input class="checkbox" type="checkbox">
+            <input id="check" class="checkbox" type="checkbox">
         </form>
     </div>
 
 
 
     <script src="js/popup.js"></script>
+    <script src="js/respons.js" defer></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>

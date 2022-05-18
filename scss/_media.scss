@@ -451,13 +451,16 @@
     body {
         max-width: 810px;
     }
-    .header_container{
+
+    .header_container {
         max-width: 700px;
     }
+
     .logo {
-    max-width: 170px;
-    height: 50px;
+        max-width: 170px;
+        height: 50px;
     }
+
     .start_container {
         max-height: 243px;
     }
@@ -481,14 +484,17 @@
         justify-content: center;
         align-items: center;
     }
-    .swiper{
+
+    .swiper {
         max-width: 560px;
         max-height: 450px;
     }
-    .slider-photo{
+
+    .slider-photo {
         max-width: 480px;
         max-height: 450px;
     }
+
     .footer {
         max-width: 810px;
         max-height: 80px;
@@ -500,7 +506,7 @@
         max-width: 710px;
     }
 
-    .header_container{
+    .header_container {
         max-width: 600px;
     }
 
@@ -540,7 +546,8 @@
     body {
         max-width: 610px;
     }
-    .header_container{
+
+    .header_container {
         max-width: 550px;
     }
 
@@ -629,28 +636,33 @@
         display: none;
     }
 
-    .mobil {
-        display: inline;
-        font-size: 3.3vw;
-    }
-.slider-gallery{
-    max-width: 375px;
-    max-height: 333px;
-}
-    .swiper{
-        max-width: 360px;
-        max-height: 360px;
-    }
-    .slider-photo{
-        max-width: 280px;
-        max-height: 280px;
+    #mobil_size {
+        opacity: 1;
+        font-size: 13px;
+        position: relative;
     }
 
+    .slider-gallery {
+        max-width: 570px;
+        max-height: 433px;
+    }
+
+    .swiper {
+        max-width: 500px;
+        max-height: 460px;
+    }
+
+    .slider-photo {
+        max-width: 430px;
+        max-height: 380px;
+    }
 
     .footer {
         max-width: 570px;
-        
     }
+    .popup{
+        max-width: 362px; 
+     } 
 }
 
 // iphone 12/13 pro max
@@ -658,9 +670,11 @@
     body {
         max-width: 428px;
     }
-.header-container{
-    max-width: 427px;
-}
+
+    .header-container {
+        max-width: 427px;
+    }
+
     .start_container {
         //  max-width: 428px;
         max-height: 47px;
@@ -668,6 +682,21 @@
 
     .photo-start {
         max-width: 428px;
+    }
+
+    .slider-gallery {
+        max-width: 395px;
+        max-height: 383px;
+    }
+
+    .swiper {
+        max-width: 390px;
+        max-height: 390px;
+    }
+
+    .slider-photo {
+        max-width: 320px;
+        max-height: 320px;
     }
 
     .footer {
@@ -682,7 +711,6 @@
     }
 
     .start_container {
-        // max-width: 412px;
         max-height: 42px;
     }
 
@@ -710,6 +738,10 @@
     .photo-start {
         max-width: 384px;
     }
+
+  .main{
+      max-width: 383px;
+  }
     .slider-gallery{
         max-width: 375px;
         max-height: 333px;
